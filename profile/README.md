@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./astur_logo.png" alt="Astur logo" width="180" />
+  <img src="./astur_logo_white.png" alt="Astur logo" width="180" />
   <p><strong>Device-native mobile automation for Android and iOS with Playwright ergonomics and no Appium server.</strong></p>
   <p>Native apps. Mobile web. WebView flows. One automation surface.</p>
 </div>
