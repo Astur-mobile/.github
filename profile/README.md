@@ -12,7 +12,7 @@
 
   <p>
     <a href="https://www.npmjs.com/package/astur-mobile"><img src="https://img.shields.io/npm/v/astur-mobile?logo=npm&label=astur-mobile&color=cb3837" alt="astur-mobile on npm" /></a>
-    <a href="https://www.npmjs.com/package/@astur/test"><img src="https://img.shields.io/npm/v/@astur/test?logo=npm&label=%40astur%2Ftest&color=cb3837" alt="@astur/test on npm" /></a>
+    <a href="https://www.npmjs.com/package/@astur-mobile/test"><img src="https://img.shields.io/npm/v/@astur-mobile/test?logo=npm&label=%40astur-mobile%2Ftest&color=cb3837" alt="@astur-mobile/test on npm" /></a>
     <a href="https://github.com/Astur-mobile/Astur/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue" alt="Apache-2.0" /></a>
     <img src="https://img.shields.io/badge/Android-supported-3DDC84?logo=android&logoColor=white" alt="Android" />
     <img src="https://img.shields.io/badge/iOS-supported-black?logo=apple&logoColor=white" alt="iOS" />
@@ -30,11 +30,11 @@ per-action latency, far fewer moving parts, and test runs that hold up in CI
 instead of flaking.
 
 ```bash
-npm install -D @astur/test astur-mobile
+npm install -D @astur-mobile/test astur-mobile
 ```
 
 ```ts
-import { test, expect } from '@astur/test';
+import { test, expect } from '@astur-mobile/test';
 
 test('login', async ({ device }) => {
   await device.getByLabel('Email').fill('qa@example.com');
@@ -57,7 +57,7 @@ test('login', async ({ device }) => {
   the iOS agent, reaps orphaned sessions on startup, prunes stale build caches,
   and tears down cleanly on Ctrl-C or terminal close.
 - **Visual Inspector & codegen** built on the same runtime, exporting
-  ready-to-run `@astur/test` specs.
+  ready-to-run `@astur-mobile/test` specs.
 
 ## Quick start
 
@@ -73,9 +73,9 @@ npx astur-mobile test
 | Package | Purpose |
 | --- | --- |
 | `astur-mobile` | CLI: `doctor`, `devices`, `init`, `codegen`, `inspect`, `test` |
-| `@astur/test` | Playwright-style test API (fixtures, `expect`, locators) |
+| `@astur-mobile/test` | Playwright-style test API (fixtures, `expect`, locators) |
 | `create-astur` | Project scaffolder (`npm create astur`) |
-| `@astur/core` · `@astur/android` · `@astur/ios` · `@astur/protocol` | Runtime + platform drivers |
+| `@astur-mobile/core` · `@astur-mobile/android` · `@astur-mobile/ios` · `@astur-mobile/protocol` | Runtime + platform drivers |
 
 ## Community
 
