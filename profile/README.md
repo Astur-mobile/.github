@@ -4,15 +4,15 @@
   ### Device-native mobile automation for Android and iOS — Playwright ergonomics, no Appium server.
 
   <p>
-    <a href="https://astur-mobile.github.io">Docs</a> ·
-    <a href="https://astur-mobile.github.io/getting-started/">Getting Started</a> ·
-    <a href="https://astur-mobile.github.io/why-astur/">Why Astur</a> ·
+    <a href="https://astur-mobile.github.io/Astur/">Docs</a> ·
+    <a href="https://astur-mobile.github.io/Astur/getting-started/">Getting Started</a> ·
+    <a href="https://astur-mobile.github.io/Astur/why-astur/">Why Astur</a> ·
     <a href="https://github.com/sponsors/Astur-mobile">Sponsor</a>
   </p>
 
   <p>
-    <a href="https://www.npmjs.com/package/astur-mobile"><img src="https://img.shields.io/npm/v/astur-mobile?logo=npm&label=astur-mobile&color=cb3837" alt="astur-mobile on npm" /></a>
-    <a href="https://www.npmjs.com/package/@astur-mobile/test"><img src="https://img.shields.io/npm/v/@astur-mobile/test?logo=npm&label=%40astur-mobile%2Ftest&color=cb3837" alt="@astur-mobile/test on npm" /></a>
+    <a href="https://www.npmjs.com/package/astur-mobile"><img src="https://img.shields.io/npm/v/astur-mobile/next?logo=npm&label=astur-mobile&color=cb3837" alt="astur-mobile on npm" /></a>
+    <a href="https://www.npmjs.com/package/@astur-mobile/test"><img src="https://img.shields.io/npm/v/@astur-mobile/test/next?logo=npm&label=%40astur-mobile%2Ftest&color=cb3837" alt="@astur-mobile/test on npm" /></a>
     <a href="https://github.com/Astur-mobile/Astur/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue" alt="Apache-2.0" /></a>
     <img src="https://img.shields.io/badge/Android-supported-3DDC84?logo=android&logoColor=white" alt="Android" />
     <img src="https://img.shields.io/badge/iOS-supported-black?logo=apple&logoColor=white" alt="iOS" />
